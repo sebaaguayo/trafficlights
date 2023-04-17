@@ -10,3 +10,75 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    align-items: center;
+    margin: 10px;
+}
+
+#trafficTop{
+    width: 10px;
+    background-color: black;
+    height: 70px;
+    margin: auto;
+}
+
+#container{
+    width:60px;
+    height:160px;
+    background-color: black;
+    margin: auto;
+    border-radius: 8%;
+    padding: 5px;
+}
+
+.redLight{
+    margin:auto;
+    border-radius: 100%;
+    width:50px;
+    height:50px;
+    background-color: red;
+}
+
+.yellowLight{
+    margin:auto;
+    border-radius:100%;
+    width:50px;
+    height:50px;
+    background-color:yellow;
+}
+
+.greenLight{
+    margin: auto;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color:green;
+}
+
+
+.redLight.selected{
+    margin:auto;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color:red;
+    box-shadow:  0px 0px 5px 5px rgb(207, 238, 185);
+}
+
+.yellowLight.selected{
+    margin:auto;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color:yellow;
+    box-shadow:  0px 0px 5px 5px rgb(235, 238, 185);
+}
+
+.greenLight.selected{
+    margin: auto;
+    border-radius:100%;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    box-shadow:  0px 0px 5px 5px rgb(207, 238, 185);
+}
